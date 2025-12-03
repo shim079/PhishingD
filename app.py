@@ -21,6 +21,7 @@ API_KEY = os.getenv("GOOGLE_API_KEY")
 
 # Initialize Flask app
 app = Flask(__name__),CORS(app)
+CORS(app, origins=["https://shim079.github.io"])
 app.config.update(
     SESSION_COOKIE_SECURE=True,
     SESSION_COOKIE_HTTPONLY=True,
