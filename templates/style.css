@@ -1,0 +1,16 @@
+  .nav {
+            
+            backdrop-filter: blur(19);
+            
+            top: 0;
+            gap: 10px;
+            margin: 10px;
+            background-color: rgb(83, 102, 119);
+            padding: 30px;
+        }
+        body { font-family: Arial; background-image: url(./bg.png); text-align: center; padding: 10px; }
+        .box { background: white; padding: 30px; border-radius: 12px; display: inline-block; }
+        input[type="text"] { width: 300px; padding: 10px; }
+        button { padding: 10px 20px; margin-top: 10px; }
+        select { padding: 10px; margin-top: 10px; }
+        .result { font-weight: bold; margin-top: 20px; }

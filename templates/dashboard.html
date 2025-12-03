@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Phishing API Log Dashboard</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        table { width: 100%; border-collapse: collapse; }
+        th, td { padding: 8px 12px; border: 1px solid #ccc; text-align: left; }
+        th { background-color: #f4f4f4; }
+        tr:hover { background-color: #f9f9f9; }
+        .error { color: red; }
+    </style>
+</head>
+<body>
+    <h2>Phishing Detection API Logs</h2>
+    <table>
+        <tr>
+            <th>Time</th>
+            <th>Level</th>
+            <th>URL</th>
+            <th>Status/Latency</th>
+            <th>Result/Error</th>
+        </tr>
+        {% for log in logs %}
+        <tr>
+            <td>{{ log.time }}</td>
+            <td>{{ log.level }}</td>
+            <td>{{ log.url }}</td>
+            <td>{{ log.status }}</td>
+            <td class="{{ 'error' if 'error' in log.result.lower() else '' }}">{{ log.result }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
+
