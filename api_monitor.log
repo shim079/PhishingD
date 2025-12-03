@@ -357,3 +357,16 @@
 2025-12-03 20:03:06,401,INFO,127.0.0.1 - - [03/Dec/2025 20:03:06] "POST / HTTP/1.1" 200 -
 2025-12-03 20:03:06,420,INFO,127.0.0.1 - - [03/Dec/2025 20:03:06] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
 2025-12-03 20:03:08,937,INFO,127.0.0.1 - - [03/Dec/2025 20:03:08] "GET /dashboard HTTP/1.1" 200 -
+2025-12-03 21:01:34,758,INFO,[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-12-03 21:01:34,758,INFO,[33mPress CTRL+C to quit[0m
+2025-12-03 21:01:34,758,INFO, * Restarting with stat
+2025-12-03 21:01:35,374,WARNING, * Debugger is active!
+2025-12-03 21:01:35,382,INFO, * Debugger PIN: 255-510-007
+2025-12-03 21:01:42,322,INFO,127.0.0.1 - - [03/Dec/2025 21:01:42] "GET / HTTP/1.1" 200 -
+2025-12-03 21:01:42,474,INFO,127.0.0.1 - - [03/Dec/2025 21:01:42] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2025-12-03 21:01:45,164,INFO,127.0.0.1 - - [03/Dec/2025 21:01:45] "GET /dashboard HTTP/1.1" 200 -
+2025-12-03 21:01:47,169,INFO,127.0.0.1 - - [03/Dec/2025 21:01:47] "GET /about HTTP/1.1" 200 -
+2025-12-03 21:01:47,176,INFO,127.0.0.1 - - [03/Dec/2025 21:01:47] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2025-12-03 21:03:22,016,INFO, * Detected change in 'C:\\Users\\shsal\\OneDrive\\\u0633\u0637\u062d \u0627\u0644\u0645\u0643\u062a\u0628\\my projects\\Phishing\\app.py', reloading
+2025-12-03 21:03:22,049,INFO, * Restarting with stat
