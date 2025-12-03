@@ -114,9 +114,9 @@ def index():
 
 
 
-@app.route("/")
+@app.route("/dashboard")
 def home():
-    return '<h2>Welcome! Visit <a href="/dashboard">Dashboard</a></h2>'
+    return render_template("dashboard.html")
 
 
 
