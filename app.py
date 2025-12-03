@@ -2,7 +2,7 @@ from flask import Flask, render_template, request
 import os
 import requests
 from dotenv import load_dotenv
-from url_features import extract_features  # If used elsewhere, else remove
+from url_features import extract_features  # Remove if unused
 import logging
 from datetime import datetime
 from urllib.parse import urlparse
@@ -29,20 +29,21 @@ app.config.update(
     SECRET_KEY=os.environ.get('SECRET_KEY')
 )
 
-# --- Utility Functions ---
-
+# Utility function
 def sanitize_url(url):
-    """Sanitize URL for logging (hide query params, etc.)"""
     parsed = urlparse(url)
     return f"{parsed.scheme}://{parsed.netloc}"
 
 def dummy_check(url):
-    phishing_keywords = ['login', 'update', 'secure', 'verify', 'account', 'banking', 'paypal']
+    phishing_keywords = [
+        'login', 'update', 'secure', 'verify', 'account',
+        'banking', 'paypal'
+    ]
     return any(keyword in url.lower() for keyword in phishing_keywords)
 
 def check_google_safebrowsing(url):
     endpoint = f"https://safebrowsing.googleapis.com/v4/threatMatches:find?key={API_KEY}"
-    
+
     payload = {
         "client": {
             "clientId": "phishing-detector",
@@ -62,21 +63,17 @@ def check_google_safebrowsing(url):
         latency = response.elapsed.total_seconds()
         is_threat = bool(response.json().get("matches", []))
 
-        logging.info(f"{datetime.now()},{sanitize_url(url)},{status},{latency},{'Phishing' if is_threat else 'Safe'}")
+        logging.info(
+            f"{datetime.now()},{sanitize_url(url)},{status},{latency},{'Phishing' if is_threat else 'Safe'}"
+        )
         return is_threat
+
     except Exception as e:
         logging.error(f"{datetime.now()},{sanitize_url(url)},ERROR,{e}")
         return f"API error: {e}"
 
 
-
-
-
-
-
-
-
-# --- Routes ---
+# Routes
 @app.route("/about")
 def about():
     return render_template("about.html")
@@ -85,7 +82,7 @@ def about():
 def index():
     result = None
     method_used = ""
-    
+
     if request.method == "POST":
         url = request.form.get("url", "").strip()
         method = request.form.get("method", "")
@@ -93,9 +90,11 @@ def index():
         if not url:
             result = "⚠️ Please enter a valid URL."
             method_used = "Input Validation"
+
         elif method == "dummy":
             result = "🚨 Phishing Detected!" if dummy_check(url) else "✅ Safe URL"
             method_used = "Dummy Keyword Matching"
+
         elif method == "google":
             verdict = check_google_safebrowsing(url)
             if verdict is True:
@@ -103,8 +102,9 @@ def index():
             elif verdict is False:
                 result = "✅ Google says this site is safe."
             else:
-                result = verdict  # API error message
+                result = verdict  # API error
             method_used = "Google Safe Browsing API"
+
         else:
             result = "❌ Unknown detection method selected."
             method_used = "Error"
@@ -112,21 +112,17 @@ def index():
     return render_template("index.html", result=result, method=method_used)
 
 
-
-
 @app.route("/dashboard")
-def home():
+def dashboard():
     return render_template("dashboard.html")
 
 
-
-
-# --- Run App ---
 if __name__ == "__main__":
-    host = '127.0.0.1'
+    host = "127.0.0.1"
     port = 5000
     print(f" * Running on http://{host}:{port}/ (Press CTRL+C to quit)")
     app.run(host=host, port=port, debug=True)
+
 
 
 

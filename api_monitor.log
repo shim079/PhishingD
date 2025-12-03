@@ -247,3 +247,113 @@
 2025-12-03 18:58:04,757,INFO,127.0.0.1 - - [03/Dec/2025 18:58:04] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
 2025-12-03 18:58:11,952,INFO,127.0.0.1 - - [03/Dec/2025 18:58:11] "GET / HTTP/1.1" 200 -
 2025-12-03 18:58:11,964,INFO,127.0.0.1 - - [03/Dec/2025 18:58:11] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2025-12-03 19:56:30,754,INFO,[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-12-03 19:56:30,754,INFO,[33mPress CTRL+C to quit[0m
+2025-12-03 19:56:30,756,INFO, * Restarting with stat
+2025-12-03 19:56:31,421,WARNING, * Debugger is active!
+2025-12-03 19:56:31,424,INFO, * Debugger PIN: 255-510-007
+2025-12-03 19:56:33,491,INFO,127.0.0.1 - - [03/Dec/2025 19:56:33] "GET / HTTP/1.1" 200 -
+2025-12-03 19:56:33,643,INFO,127.0.0.1 - - [03/Dec/2025 19:56:33] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2025-12-03 19:56:53,017,INFO,127.0.0.1 - - [03/Dec/2025 19:56:53] "POST / HTTP/1.1" 200 -
+2025-12-03 19:56:53,032,INFO,127.0.0.1 - - [03/Dec/2025 19:56:53] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2025-12-03 19:57:05,264,INFO,127.0.0.1 - - [03/Dec/2025 19:57:05] "[33mGET /dashboard HTTP/1.1[0m" 404 -
+2025-12-03 19:57:09,232,INFO,127.0.0.1 - - [03/Dec/2025 19:57:09] "GET / HTTP/1.1" 200 -
+2025-12-03 19:57:09,258,INFO,127.0.0.1 - - [03/Dec/2025 19:57:09] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2025-12-03 19:57:11,066,INFO,127.0.0.1 - - [03/Dec/2025 19:57:11] "GET /about HTTP/1.1" 200 -
+2025-12-03 19:57:11,078,INFO,127.0.0.1 - - [03/Dec/2025 19:57:11] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2025-12-03 19:57:12,398,INFO,127.0.0.1 - - [03/Dec/2025 19:57:12] "GET / HTTP/1.1" 200 -
+2025-12-03 19:57:12,424,INFO,127.0.0.1 - - [03/Dec/2025 19:57:12] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2025-12-03 19:57:39,815,INFO, * Detected change in 'C:\\Users\\shsal\\OneDrive\\\u0633\u0637\u062d \u0627\u0644\u0645\u0643\u062a\u0628\\my projects\\Phishing\\app.py', reloading
+2025-12-03 19:57:39,846,INFO, * Restarting with stat
+2025-12-03 19:57:40,634,WARNING, * Debugger is active!
+2025-12-03 19:57:40,637,INFO, * Debugger PIN: 255-510-007
+2025-12-03 19:57:42,505,INFO,127.0.0.1 - - [03/Dec/2025 19:57:42] "GET / HTTP/1.1" 200 -
+2025-12-03 19:57:46,315,INFO,127.0.0.1 - - [03/Dec/2025 19:57:46] "[33mGET /dashboard HTTP/1.1[0m" 404 -
+2025-12-03 19:57:49,784,INFO,127.0.0.1 - - [03/Dec/2025 19:57:49] "GET / HTTP/1.1" 200 -
+2025-12-03 19:58:16,832,INFO, * Detected change in 'C:\\Users\\shsal\\OneDrive\\\u0633\u0637\u062d \u0627\u0644\u0645\u0643\u062a\u0628\\my projects\\Phishing\\app.py', reloading
+2025-12-03 19:58:16,910,INFO, * Restarting with stat
+2025-12-03 19:58:18,338,WARNING, * Debugger is active!
+2025-12-03 19:58:18,345,INFO, * Debugger PIN: 255-510-007
+2025-12-03 19:58:18,387,INFO,127.0.0.1 - - [03/Dec/2025 19:58:18] "GET / HTTP/1.1" 200 -
+2025-12-03 19:58:19,888,INFO,127.0.0.1 - - [03/Dec/2025 19:58:19] "GET /index HTTP/1.1" 200 -
+2025-12-03 19:58:20,006,INFO,127.0.0.1 - - [03/Dec/2025 19:58:20] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2025-12-03 19:58:21,150,INFO,127.0.0.1 - - [03/Dec/2025 19:58:21] "[33mGET /dashboard HTTP/1.1[0m" 404 -
+2025-12-03 19:58:22,613,INFO,127.0.0.1 - - [03/Dec/2025 19:58:22] "GET / HTTP/1.1" 200 -
+2025-12-03 19:58:45,499,INFO, * Detected change in 'C:\\Users\\shsal\\OneDrive\\\u0633\u0637\u062d \u0627\u0644\u0645\u0643\u062a\u0628\\my projects\\Phishing\\app.py', reloading
+2025-12-03 19:58:45,535,INFO, * Restarting with stat
+2025-12-03 19:58:46,263,WARNING, * Debugger is active!
+2025-12-03 19:58:46,265,INFO, * Debugger PIN: 255-510-007
+2025-12-03 19:58:47,781,INFO,127.0.0.1 - - [03/Dec/2025 19:58:47] "GET /index HTTP/1.1" 200 -
+2025-12-03 19:58:47,910,INFO,127.0.0.1 - - [03/Dec/2025 19:58:47] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2025-12-03 19:58:49,807,INFO,127.0.0.1 - - [03/Dec/2025 19:58:49] "[33mGET / HTTP/1.1[0m" 404 -
+2025-12-03 19:58:58,380,INFO,127.0.0.1 - - [03/Dec/2025 19:58:58] "[33mGET / HTTP/1.1[0m" 404 -
+2025-12-03 19:59:06,788,INFO,127.0.0.1 - - [03/Dec/2025 19:59:06] "GET /dashboard HTTP/1.1" 200 -
+2025-12-03 19:59:08,715,INFO,127.0.0.1 - - [03/Dec/2025 19:59:08] "GET /index HTTP/1.1" 200 -
+2025-12-03 19:59:08,729,INFO,127.0.0.1 - - [03/Dec/2025 19:59:08] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2025-12-03 20:00:30,821,INFO, * Detected change in 'C:\\Users\\shsal\\OneDrive\\\u0633\u0637\u062d \u0627\u0644\u0645\u0643\u062a\u0628\\my projects\\Phishing\\app.py', reloading
+2025-12-03 20:00:30,853,INFO, * Restarting with stat
+2025-12-03 20:00:31,704,WARNING, * Debugger is active!
+2025-12-03 20:00:31,723,INFO, * Debugger PIN: 255-510-007
+2025-12-03 20:00:32,669,INFO,127.0.0.1 - - [03/Dec/2025 20:00:32] "GET /dashboard HTTP/1.1" 200 -
+2025-12-03 20:00:35,630,INFO,127.0.0.1 - - [03/Dec/2025 20:00:35] "GET /index HTTP/1.1" 200 -
+2025-12-03 20:00:35,759,INFO,127.0.0.1 - - [03/Dec/2025 20:00:35] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2025-12-03 20:00:40,998,INFO,127.0.0.1 - - [03/Dec/2025 20:00:40] "[33mGET / HTTP/1.1[0m" 404 -
+2025-12-03 20:00:43,111,INFO,127.0.0.1 - - [03/Dec/2025 20:00:43] "GET /dashboard HTTP/1.1" 200 -
+2025-12-03 20:00:45,820,INFO,127.0.0.1 - - [03/Dec/2025 20:00:45] "GET /about HTTP/1.1" 200 -
+2025-12-03 20:00:45,831,INFO,127.0.0.1 - - [03/Dec/2025 20:00:45] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2025-12-03 20:00:47,001,INFO,127.0.0.1 - - [03/Dec/2025 20:00:47] "[33mGET / HTTP/1.1[0m" 404 -
+2025-12-03 20:00:48,884,INFO,127.0.0.1 - - [03/Dec/2025 20:00:48] "GET /dashboard HTTP/1.1" 200 -
+2025-12-03 20:00:52,030,INFO,127.0.0.1 - - [03/Dec/2025 20:00:52] "GET /about HTTP/1.1" 200 -
+2025-12-03 20:00:52,043,INFO,127.0.0.1 - - [03/Dec/2025 20:00:52] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2025-12-03 20:00:53,338,INFO,127.0.0.1 - - [03/Dec/2025 20:00:53] "[33mGET / HTTP/1.1[0m" 404 -
+2025-12-03 20:01:43,739,INFO,[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-12-03 20:01:43,739,INFO,[33mPress CTRL+C to quit[0m
+2025-12-03 20:01:43,739,INFO, * Restarting with stat
+2025-12-03 20:01:44,417,WARNING, * Debugger is active!
+2025-12-03 20:01:44,417,INFO, * Debugger PIN: 255-510-007
+2025-12-03 20:01:45,925,INFO,127.0.0.1 - - [03/Dec/2025 20:01:45] "[33mGET / HTTP/1.1[0m" 404 -
+2025-12-03 20:01:58,487,INFO, * Detected change in 'C:\\Users\\shsal\\OneDrive\\\u0633\u0637\u062d \u0627\u0644\u0645\u0643\u062a\u0628\\my projects\\Phishing\\app.py', reloading
+2025-12-03 20:01:58,523,INFO, * Restarting with stat
+2025-12-03 20:01:59,965,WARNING, * Debugger is active!
+2025-12-03 20:01:59,983,INFO, * Debugger PIN: 255-510-007
+2025-12-03 20:02:00,216,INFO,127.0.0.1 - - [03/Dec/2025 20:02:00] "[33mGET / HTTP/1.1[0m" 404 -
+2025-12-03 20:02:01,091,INFO,127.0.0.1 - - [03/Dec/2025 20:02:01] "[33mGET / HTTP/1.1[0m" 404 -
+2025-12-03 20:02:06,027,INFO, * Detected change in 'C:\\Users\\shsal\\OneDrive\\\u0633\u0637\u062d \u0627\u0644\u0645\u0643\u062a\u0628\\my projects\\Phishing\\app.py', reloading
+2025-12-03 20:02:06,059,INFO, * Restarting with stat
+2025-12-03 20:02:06,714,WARNING, * Debugger is active!
+2025-12-03 20:02:06,718,INFO, * Debugger PIN: 255-510-007
+2025-12-03 20:02:16,763,INFO, * Detected change in 'C:\\Users\\shsal\\OneDrive\\\u0633\u0637\u062d \u0627\u0644\u0645\u0643\u062a\u0628\\my projects\\Phishing\\app.py', reloading
+2025-12-03 20:02:16,796,INFO, * Restarting with stat
+2025-12-03 20:02:17,535,WARNING, * Debugger is active!
+2025-12-03 20:02:17,535,INFO, * Debugger PIN: 255-510-007
+2025-12-03 20:02:18,723,INFO,127.0.0.1 - - [03/Dec/2025 20:02:18] "GET / HTTP/1.1" 200 -
+2025-12-03 20:02:18,855,INFO,127.0.0.1 - - [03/Dec/2025 20:02:18] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2025-12-03 20:02:21,032,INFO,127.0.0.1 - - [03/Dec/2025 20:02:21] "GET /dashboard HTTP/1.1" 200 -
+2025-12-03 20:02:22,313,INFO,127.0.0.1 - - [03/Dec/2025 20:02:22] "[33mGET /index HTTP/1.1[0m" 404 -
+2025-12-03 20:02:26,827,INFO,127.0.0.1 - - [03/Dec/2025 20:02:26] "GET / HTTP/1.1" 200 -
+2025-12-03 20:02:26,842,INFO,127.0.0.1 - - [03/Dec/2025 20:02:26] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2025-12-03 20:02:27,965,INFO,127.0.0.1 - - [03/Dec/2025 20:02:27] "GET /about HTTP/1.1" 200 -
+2025-12-03 20:02:27,976,INFO,127.0.0.1 - - [03/Dec/2025 20:02:27] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2025-12-03 20:02:38,671,INFO, * Detected change in 'C:\\Users\\shsal\\OneDrive\\\u0633\u0637\u062d \u0627\u0644\u0645\u0643\u062a\u0628\\my projects\\Phishing\\app.py', reloading
+2025-12-03 20:02:38,706,INFO, * Restarting with stat
+2025-12-03 20:02:39,450,WARNING, * Debugger is active!
+2025-12-03 20:02:39,457,INFO, * Debugger PIN: 255-510-007
+2025-12-03 20:02:40,780,INFO,127.0.0.1 - - [03/Dec/2025 20:02:40] "GET / HTTP/1.1" 200 -
+2025-12-03 20:02:40,897,INFO,127.0.0.1 - - [03/Dec/2025 20:02:40] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2025-12-03 20:02:41,929,INFO,127.0.0.1 - - [03/Dec/2025 20:02:41] "GET /dashboard HTTP/1.1" 200 -
+2025-12-03 20:02:44,157,INFO,127.0.0.1 - - [03/Dec/2025 20:02:44] "GET / HTTP/1.1" 200 -
+2025-12-03 20:02:44,170,INFO,127.0.0.1 - - [03/Dec/2025 20:02:44] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2025-12-03 20:02:45,697,INFO,127.0.0.1 - - [03/Dec/2025 20:02:45] "GET /about HTTP/1.1" 200 -
+2025-12-03 20:02:45,708,INFO,127.0.0.1 - - [03/Dec/2025 20:02:45] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2025-12-03 20:02:47,334,INFO,127.0.0.1 - - [03/Dec/2025 20:02:47] "GET /dashboard HTTP/1.1" 200 -
+2025-12-03 20:02:56,389,INFO,127.0.0.1 - - [03/Dec/2025 20:02:56] "POST / HTTP/1.1" 200 -
+2025-12-03 20:02:56,402,INFO,127.0.0.1 - - [03/Dec/2025 20:02:56] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2025-12-03 20:02:57,765,INFO,127.0.0.1 - - [03/Dec/2025 20:02:57] "GET /dashboard HTTP/1.1" 200 -
+2025-12-03 20:03:00,084,INFO,127.0.0.1 - - [03/Dec/2025 20:03:00] "GET /about HTTP/1.1" 200 -
+2025-12-03 20:03:00,098,INFO,127.0.0.1 - - [03/Dec/2025 20:03:00] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2025-12-03 20:03:06,400,INFO,2025-12-03 20:03:06.399287,https://www.youtube.com,200,0.655615,Safe
+2025-12-03 20:03:06,401,INFO,127.0.0.1 - - [03/Dec/2025 20:03:06] "POST / HTTP/1.1" 200 -
+2025-12-03 20:03:06,420,INFO,127.0.0.1 - - [03/Dec/2025 20:03:06] "[36mGET /static/images/bg1.jpg HTTP/1.1[0m" 304 -
+2025-12-03 20:03:08,937,INFO,127.0.0.1 - - [03/Dec/2025 20:03:08] "GET /dashboard HTTP/1.1" 200 -
